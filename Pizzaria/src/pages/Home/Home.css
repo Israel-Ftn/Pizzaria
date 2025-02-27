@@ -1,0 +1,42 @@
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center
+}
+img{
+   width: 800px;
+     height: 300px;
+  object-fit: cover;
+  margin-top: 1px;
+  border-radius: 10px;
+}
+img:hover{
+    border-radius: 10%;
+}
+h2 {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+h2:hover {
+  color: red;
+}
+button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(243, 10, 10);
+  border-radius: 15px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 60px;
+
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.sabores {
+  margin-right: 40px;
+}
