@@ -2,6 +2,7 @@
 import IMG1 from '../../imagens/Caroueselimg/pizza-4741312_1280.jpg'
 import IMG2 from '../../imagens/Caroueselimg/eat-1237431_1280.jpg'
 import IMG3 from'../../imagens/Caroueselimg/batarta.jpg'
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Home.css";
 function HOME() {
@@ -28,10 +29,12 @@ function HOME() {
   return (
     
         <div className="box">
-      <h2>{slides[ativo].titulo}</h2>
+      <h8>{slides[ativo].titulo}</h8>
       <p>{slides[ativo].conteudo}</p>
+    
       <div className="botoes">
         <button onClick={slideAnterior}>Anterior</button>
+        <Link className='linkcompra' to='/Formulario'>Comprar Agora</Link>
         <button onClick={proximoSlide}>Próximo</button>
       </div>
       </div>
