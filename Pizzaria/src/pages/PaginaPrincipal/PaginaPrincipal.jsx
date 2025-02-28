@@ -9,7 +9,7 @@ import Pizza7 from "../../imagens/pizzas/7.jpg";
 import Pizza8 from "../../imagens/pizzas/8.jpg";
 import Pizza9 from "../../imagens/pizzas/9.jpg";
 import Pizza10 from "../../imagens/pizzas/10.jpg";
-
+import { Link } from "react-router-dom";
 function PaginaPrincipal() {
   return (
     <div className="container">
@@ -17,82 +17,122 @@ function PaginaPrincipal() {
         <img className="img1" src={Pizza1} alt="" />
         <div className="button">
           <p>Pizza Sabor Alho E Olho com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
-        <img className="img1"src={Pizza2} alt="" />
+        <img className="img1" src={Pizza2} alt="" />
 
         <div className="button">
           <p>Pizza Sabor Portuguesa com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza3} alt="" />
         <div className="button">
-        <p>Pizza Sabor Calabreza
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Calabreza com borda Rechada:Cheeder ou Catupiry</p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza4} alt="" />
         <div className="button">
-        <p>Pizza Sabor 4 Queijos
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor 4 Queijos com borda Rechada:Cheeder ou Catupiry</p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza5} alt="" />
         <div className="button">
-        <p>Pizza Sabor Portuguesa
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Portuguesa com borda Rechada:Cheeder ou Catupiry</p>
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza6} alt="" />
         <div className="button">
-        <p>Pizza Sabor Frango 
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Frango com borda Rechada:Cheeder ou Catupiry</p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza7} alt="" />
         <div className="button">
-        <p>Pizza Sabor Costela
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Costela com borda Rechada:Cheeder ou Catupiry</p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza8} alt="" />
         <div className="button">
-        <p>Pizza Sabor Vegetariana
-         sem borda </p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Vegetariana sem borda </p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza9} alt="" />
         <div className="button">
-        <p>Pizza Sabor Palmito
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>Pizza Sabor Palmito com borda Rechada:Cheeder ou Catupiry</p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
       <div className="card">
         <img className="img1" src={Pizza10} alt="" />
         <div className="button">
-        <p>Pizza Sabor Bacon com Brócolis
-        com borda Rechada:Cheeder ou Catupiry</p>
-          <button className="botao1">Comprar Agora</button>
+          <p>
+            Pizza Sabor Bacon com Brócolis com borda Rechada:Cheeder ou Catupiry
+          </p>
+
+          <div className="boto">
+            <Link className="comprar" to="/Formulario">
+              Comprar
+            </Link>
+          </div>
         </div>
       </div>
-      
     </div>
   );
 }

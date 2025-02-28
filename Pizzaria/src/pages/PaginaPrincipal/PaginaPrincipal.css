@@ -26,6 +26,7 @@ button{
     border-radius: 8px;
     background-color: rgb(0, 0, 0);
     color: white;
+    margin-top: 30px;
 }
 button:hover{
     background-color: rgb(255, 19, 19);
@@ -46,4 +47,19 @@ p{
 }
 .botao1{
     margin-top: 40px;
+}
+.comprar{
+    color: rgb(154, 154, 154);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+     padding: 5px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+}
+.comprar:hover{
+    color: rgb(255, 255, 255);
+}
+.boto{
+    margin-top: 35px;
+    margin-left: 20px;
 }
